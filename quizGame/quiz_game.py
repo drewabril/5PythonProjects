@@ -43,3 +43,4 @@ else:
     print("Sorry, you got that wrong")
 
 print("Your score is: " + str(score) + " questions right!")
+print("You got " +str((score / 4) * 100) + "%")
